@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="TipoControles.OtherControls">
+    <ContentPage.Content>
+        <StackLayout Margin="0, 40, 0, 0">
+            <Label Text="Otros"
+                Font="40"
+                TextColor="OrangeRed"
+                HorizontalOptions="CenterAndExpand" />
+            <ProgressBar ProgressColor="OrangeRed" Progress="0" x:Name="progress" HorizontalOptions="FillAndExpand"/>
+            <Label Text="Slider"
+                   HorizontalOptions="CenterAndExpand"/>
+            <Slider x:Name="slider1" ThumbColor="Orange" BackgroundColor="OrangeRed" Minimum="0" Maximum="100" Value="15" HorizontalOptions="FillAndExpand"/>
+            <Label x:Name="lblSlider" FontSize="Medium" TextColor="OrangeRed"/>
+            <BoxView WidthRequest="200" HeightRequest="2" BackgroundColor="Blue"/>
+            <Label Text="Stepper" FontSize="Medium"/>
+            <Stepper x:Name="stepper1" Increment="0.1" Minimum="0" Maximum="30" HorizontalOptions="Center"/>
+            <Label x:Name="lblStepper" FontSize="Medium" TextColor="Red" Text="Step: 0"/>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

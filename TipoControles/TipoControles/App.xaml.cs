@@ -11,7 +11,7 @@ namespace TipoControles
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new OtherControls();
         }
 
         protected override void OnStart()
