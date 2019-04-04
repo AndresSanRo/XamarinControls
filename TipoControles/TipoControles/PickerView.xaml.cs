@@ -29,7 +29,7 @@ namespace TipoControles
                     this.lblPicker.Text = "Selecciona un ingrediente";
                 else
                     this.lblPicker.Text = "Ingrediente seleccionado: " + this.ingredients[index];
-            };
+            };            
 		}
 	}
 }

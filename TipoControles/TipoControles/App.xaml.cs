@@ -11,7 +11,7 @@ namespace TipoControles
         {
             InitializeComponent();
 
-            MainPage = new PickerView();
+            MainPage = new PracticaPickersDate();
         }
 
         protected override void OnStart()
