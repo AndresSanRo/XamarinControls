@@ -11,7 +11,7 @@ namespace TipoControles
         {
             InitializeComponent();
 
-            MainPage = new OtherControls();
+            MainPage = new PickerView();
         }
 
         protected override void OnStart()
